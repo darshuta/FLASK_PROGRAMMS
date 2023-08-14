@@ -1,0 +1,77 @@
+body {
+    font-family: Inter; /* Семейство шрифтов */
+    font-size: 18px; /* Размер основного шрифта в <p></p>  */
+    background-color: #5988FF; /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста */ 
+}
+
+h1 {
+    color: #ffffff; /* Цвет заголовка */
+    font-size: 35px; /* Размер шрифта в пунктах */
+    font-family: Inter; /* Семейство шрифтов */
+    border-style: double;
+}
+
+h1.text {text-align: center}
+
+p {
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p.text {text-align: center} 
+
+h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Inter;
+}
+
+/* img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+} */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto
+}
+
+h2.text {padding-left: 150px;}
+
+/* li.text {padding-left: 200px;} */
+
+ul.text {padding-left: 170px;}
+
+li {
+    font-family: Inter;
+    font-size: 20px;
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(255, 255, 255);
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: rgb(49, 45, 255);
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+h1:hover { animation: color-change 3s infinite; }
